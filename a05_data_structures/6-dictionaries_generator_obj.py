@@ -37,6 +37,12 @@ for key, value in point.items():    # items() -> will return the tuple value of 
 # y 2
 # z 20
 
+person = {"name": "Herohito", "age": 23}
+
+# ['name', 'age'],  iter(iterable) -> return a iterable object
+print(list(iter(person)))
+
+print(iter(person))   # <dict_keyiterator object at 0x0000023286D444F0>
 
 # ********************* DICTIONARY COMPREHENSIONS *******************
 values = []
