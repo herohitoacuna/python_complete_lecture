@@ -2,6 +2,7 @@
 
 # with this Obj we can email message that includes both html and plain text
 from email.mime.multipart import MIMEMultipart
+
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from pathlib import Path

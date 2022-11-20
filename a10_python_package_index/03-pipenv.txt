@@ -1,0 +1,51 @@
+# **** PIPENV ****
+pipenv(npm in JavaScript) = use to combine pip and env
+
+TERMINAL :
+  
+pip install env     --> Install pipenv
+
+# Installing package with pipenv
+Example:
+    pipenv install requests --> created a file "Pipfile" and "Pipfile.lock"
+                            --> created a virtual environment
+
+    pipenv --venv           --> to locate the directory where pipenv installed our virtual environment
+    # result: C:\Users\heroa\.virtualenvs\a10_python_package_index-F2i1_NU5
+
+# Activate pipenv
+Example:
+    pipenv shell
+
+# Deactive pipenv
+Example:
+    exit
+
+# Run the program in terminal only
+Example:
+    python 01-pip.py
+
+
+# To run the program using code runner
+1-Open the directory of in File Explorer pipenv where it is installed
+    Example:
+    C:\Users\heroa\.virtualenvs\PYTHON_Lecture-z5mo5sa1
+2-In VSCode Open "command pallete" -> search "setting"
+3. Change the python interpreter with path located in our env directory
+
+
+# *** INSTALLING ALL DEPENDENCIES ***
+Install all dependencies of clone repositories. 
+
+Example:
+    pipenv install
+
+
+# ***** MANAGING DEPENDENCIES *********
+pipenv graph                --> to check all installed dependencies
+pipenv update --outdated    --> look for all outdated dependencies 
+
+# Updating dependencies
+Example:
+    pipenv update <package_name>
+    pipenv update requests

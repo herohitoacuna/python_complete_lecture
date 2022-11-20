@@ -1,0 +1,10 @@
+License
+README.md
+setup.py
+hero_pdf_converter/__init__.py
+hero_pdf_converter/pdf2img.py
+hero_pdf_converter/pdf2text.py
+sample_package.egg-info/PKG-INFO
+sample_package.egg-info/SOURCES.txt
+sample_package.egg-info/dependency_links.txt
+sample_package.egg-info/top_level.txt

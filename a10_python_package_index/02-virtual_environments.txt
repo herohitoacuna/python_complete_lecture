@@ -1,0 +1,9 @@
+# ********* creating a virtual environment *******
+
+# TERMINAL CODE:
+# python -m venv env  --> it will create a env directory
+
+# we need to activate the env directory
+# TERMINAL CODE:
+# env\bin\activate.bat          # Windows
+# source env/bin/activate.bat   # mac

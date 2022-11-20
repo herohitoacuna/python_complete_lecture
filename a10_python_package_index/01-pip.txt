@@ -1,0 +1,19 @@
+# *** HOW TO INSTALL PACKAGES USING PIP *****
+
+TERMINAL CODES ****
+
+Example: 
+    pip install <name_package>
+    pip install requests
+
+# *** Installing a specific version ***
+Example:
+    pip install <name_package>==<version>
+    pip install requests==2.9.0
+
+    pip install requests==2.9.*         # this will install the latest compatible version in 2.9
+    pip install requests~=2.9.0         # this will install the latest compatible version in 2.9
+
+# *** Uninstalling a package ***
+Example: 
+    pip uninstall <name_package>

@@ -1,0 +1,21 @@
+# *** PUBLISHING PACKAGES ***
+
+# Install these globally
+Example: 
+    pip install setuptools wheel twine
+
+# create a sample package
+# Best practice to have high level directory with name as name of the package 
+
+
+# IN ORDER TO PUBLISH THIS TO PyPi add these 3 files to your package
+    setup.py        # to configure the setup setting of package
+    License         # you can choose License from "https://choosealicense.com/"
+    README.md       # this will show automatically in your repository
+
+
+# We need to generate a distribution package
+    python setup.py sdist bdist_wheel
+
+# Upload to PyPi
+    twine upload dist/*
