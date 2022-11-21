@@ -27,6 +27,7 @@ class TagCloud:
 
 cloud = TagCloud()
 
+
 # get a value in dictionary attribute using bracket notation
 print(cloud["python"])                      # result = 0
 
